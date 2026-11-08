@@ -15,3 +15,7 @@ With Kafka:
 - Kafka stores that message.
 - Consumers read it whenever they are ready.
 - Producer and consumer don't need to be available at exactly the same time.
+
+Apache Kafka is a distributed event streaming platform used for asynchronous communication between microservices. 
+It helps applications exchange messages without being directly dependent on each other. In Kafka, producers publish messages to topics, 
+and consumers read those messages. It also supports scalability and fault tolerance.
