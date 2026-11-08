@@ -1,0 +1,13 @@
+Kubernetes is a container orchestration tool.
+
+Imagine we have developed a Java Spring Boot application. We deploy it on a server, and users start accessing it.
+
+Now imagine:
+- Our application receives thousands of requests.
+- One instance of our application crashes.
+- We need to run multiple instances to handle traffic.
+- We need to restart an application when something goes wrong.
+
+Managing all these things manually is difficult.
+
+Kubernetes helps automate these tasks.
