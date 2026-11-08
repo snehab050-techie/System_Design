@@ -38,3 +38,12 @@ Example: If you configure 5 replicas, Kubernetes tries to maintain 5 running pod
 4. Service
 
 A service provides a stable network endpoint to access pods and distributes traffic between them.
+
+Kubernetes cluster
+-------------------
+
+A Kubernetes cluster is simply a group of machines working together to run and manage containerized applications.
+
+It has two main parts:
+- Control Plane: The brain. It manages and controls the cluster.
+- Worker Nodes: The machines where application pods actually run.
