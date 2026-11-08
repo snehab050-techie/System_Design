@@ -11,3 +11,21 @@ Now imagine:
 Managing all these things manually is difficult.
 
 Kubernetes helps automate these tasks.
+
+It manages application containers by:
+- Starting and stopping applications.
+- Restarting failed applications.
+- Increasing or decreasing application instances.
+- Distributing traffic across application instances.
+- Maintaining application availability.
+That's Kubernetes!
+
+1. Container
+
+A container packages your application and everything it needs to run.
+Example: Your Java Spring Boot application packaged with its dependencies.
+
+2. Pod
+
+A pod is the smallest deployable unit in Kubernetes. It runs one or more containers.
+Example: Your Java application runs inside a container, which runs inside a pod.
