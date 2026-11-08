@@ -1,3 +1,17 @@
 Apache Kafka
 ------------------
 
+Apache Kafka is a distributed event streaming platform used for communication between different applications or microservices.
+
+Why do we need Kafka?
+Imagine 10 different microservices need information from one service.
+
+Without Kafka:
+- Services may need to communicate directly with each other.
+- Multiple direct connections increase dependency.
+- If one service is down, communication can be affected.
+With Kafka:
+- Producer sends a message to Kafka.
+- Kafka stores that message.
+- Consumers read it whenever they are ready.
+- Producer and consumer don't need to be available at exactly the same time.
