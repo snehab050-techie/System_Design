@@ -110,3 +110,12 @@ C. Process and server monitoring commands
 9. kill -9 PID	
 > Forcefully terminate a process
 
+D. Permissions and ownership
+
+Linux has file permissions.
+
+1. chmod - Change file permissions
+2. chown - Change file ownership
+3. whoami - Show current user
+4. sudo - Execute with elevated privileges
+
