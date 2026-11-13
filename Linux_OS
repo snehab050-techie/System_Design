@@ -13,3 +13,17 @@ As an engineer, we use Linux commands to:
 - Check whether processes are running.
 - Check disk and memory usage.
 - Investigate application failures.
+
+A. Basic Linux commands
+-------------------------
+pwd - Show current directory > pwd
+ls  -	List files > ls -l
+cd  - Change directory > cd /opt/jboss
+mkdir - 	Create directory > mkdir logs
+touch -	Create empty file	touch > test.txt
+cp - Copy files > cp a.txt b.txt
+mv - Move/rename files > mv old.txt new.txt
+rm - Delete files > rm test.txt
+cat - Display file content > cat app.log
+less - Read large files	> less app.log
+clear - Clear > terminal	clear
