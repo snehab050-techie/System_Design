@@ -80,3 +80,33 @@ Finds server.log under /opt.
 > wc -l server.log
 Counts the number of lines.
 
+C. Process and server monitoring commands
+------------------------------------------
+
+1. ps -ef	
+> List running processes
+
+2. ps -ef \| grep java	
+> Find Java processes
+
+3. top 
+> Monitor CPU and memory usage
+
+4. free -h	
+> Check memory utilization
+
+5. df -h	
+> Check disk space
+
+6. du -sh *	
+> Check directory sizes
+
+7. uptime	
+> Check system uptime and load
+
+8. kill PID	
+> Send termination signal to a process
+
+9. kill -9 PID	
+> Forcefully terminate a process
+
