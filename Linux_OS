@@ -27,3 +27,56 @@ rm - Delete files > rm test.txt
 cat - Display file content > cat app.log
 less - Read large files	> less app.log
 clear - Clear > terminal	clear
+
+B. Most important: Log troubleshooting commands
+-------------------------------------------------
+
+1. tail
+
+> Displays the last lines of a file.
+> tail -100 server.log
+Displays the last 100 lines.
+
+2. tail -f
+
+> Continuously monitors a log file.
+> tail -f server.log
+
+Imagine a user reports that an API is failing.
+We can execute this command and observe new log entries as requests are processed.
+
+3. grep
+
+> Searches for a particular word or pattern.
+> grep "ERROR" server.log
+Search for errors.
+
+> grep -i "exception" server.log
+Search for exceptions, ignoring case.
+
+> grep -i "NullPointerException" server.log
+Find NullPointerException occurrences.
+
+> grep -n "ERROR" server.log
+Display the line numbers with ERROR
+
+> grep -in "exception" server.log
+Searches for exception by ignoring the case and alos displays line numbers
+
+4. Find
+
+> Search for files.
+> find /opt -name "server.log"
+Finds server.log under /opt.
+
+5. Head
+
+> Displays the first lines.
+> head -50 server.log
+
+6. wc
+
+> Counts lines, words and characters.
+> wc -l server.log
+Counts the number of lines.
+
