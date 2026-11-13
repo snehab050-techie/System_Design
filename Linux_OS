@@ -1,0 +1,15 @@
+Linux
+---------
+
+Linux is an operating system commonly used to run enterprise applications and servers.
+
+For example, our Java application might run on a Linux server with Apache Tomcat/JBoss installed.
+
+As an engineer, we use Linux commands to:
+
+- Navigate directories.
+- Check application logs.
+- Search for errors.
+- Check whether processes are running.
+- Check disk and memory usage.
+- Investigate application failures.
