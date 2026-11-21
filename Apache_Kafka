@@ -41,4 +41,30 @@ Example: dsc-registration-topic.
 The application that reads messages from Kafka.
 Example: Verification Service reads DSC registration events.
 
+5. Partition
+
+A topic can be divided into smaller parts called partitions. This helps Kafka handle messages in parallel.
+
+6. Offset
+
+A unique sequential position of a message within a partition.
+It helps consumers track which messages they have read.
+
+Need of kafka
+---------------
+
+Imagine 10 different microservices need information from one service.
+
+Without Kafka:
+- Services may need to communicate directly with each other.
+- Multiple direct connections increase dependency.
+- If one service is down, communication can be affected.
+
+With Kafka:
+- Producer sends a message to Kafka.
+- Kafka stores that message.
+- Consumers read it whenever they are ready.
+- Producer and consumer don't need to be available at exactly the same time.
+
+This is called asynchronous communication.
 
