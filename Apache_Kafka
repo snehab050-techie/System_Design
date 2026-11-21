@@ -19,3 +19,26 @@ With Kafka:
 Apache Kafka is a distributed event streaming platform used for asynchronous communication between microservices. 
 It helps applications exchange messages without being directly dependent on each other. In Kafka, producers publish messages to topics, 
 and consumers read those messages. It also supports scalability and fault tolerance.
+
+Kafka acts as a middle layer that transfers messages between applications.
+
+1. Producer
+
+The application that sends messages to Kafka.
+Example: DSC Service sends a DSC registration event.
+
+2. Broker
+
+A Kafka server that stores and manages messages.
+
+3. Topic
+
+A category where messages are stored.
+Example: dsc-registration-topic.
+
+4. Consumer
+
+The application that reads messages from Kafka.
+Example: Verification Service reads DSC registration events.
+
+
