@@ -68,3 +68,12 @@ With Kafka:
 
 This is called asynchronous communication.
 
+Suppose a consumer application goes down.
+
+1. Producer can continue publishing messages to Kafka.
+2. Kafka retains messages according to its retention configuration.
+3. When the consumer comes back, it can continue reading from its previous committed offset.
+4. Pending messages can then be processed.
+
+This is one reason Kafka is useful in production applications.
+
