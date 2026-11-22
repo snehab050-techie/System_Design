@@ -76,6 +76,3 @@ Suppose a consumer application goes down.
 4. Pending messages can then be processed.
 
 This is one reason Kafka is useful in production applications.
-
-Apache Kafka is a distributed event streaming platform used for asynchronous communication between microservices. It helps applications exchange messages without being directly 
-dependent on each other. In Kafka, producers publish messages to topics, and consumers read those messages. It also supports scalability and fault tolerance.
